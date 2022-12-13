@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BMI Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link >
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js' defer></script>
+</head>
+<body>
+    <h1 class="heading">BMI Calculator</h1>
+    <div class="parent">
+        <div class="part-1">
+            <h2 class="heading-main">Let's Check Together</h2>
+                <div class="items">
+                    <div class="label">Age</div>
+                    <input id="age" type="number" placeholder="Age">
+                </div>
+                <div class="items">
+                    <div class="label" for="gender">Gender</div>
+                    <input  type="radio" name="gender" value="male">
+                    <div id="male" for="male">Male</div>
+                    <input  type="radio" name="gender" value="female">
+                    <label id="female" for="female">Female</label>
+                </div>
+                <div class="items">
+                    <div class="label">Height</div>
+                    <input id="height" type="number" placeholder="cm">
+                </div>
+                <div class="items">
+                    <div class="label">Weight</div>
+                    <input id="weight" type="number" placeholder="Kg">
+                </div>
+                <div class="button">
+                    <button id="submit">Submit</button>
+                </div>
+        </div>
+        <div class="part-2">
+            <div>
+                <h2 id="text"></h2>
+                <div id="info"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
